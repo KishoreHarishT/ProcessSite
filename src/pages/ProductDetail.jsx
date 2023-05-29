@@ -52,7 +52,7 @@ function ProductDetail() {
     },
   ]
 
-  const modules = ["vbsdvsdv sdv sdf sdf ssdfs d sv sdv sdv svs ", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module",]
+  const modules = ["module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module", "module",]
 
   const [listLength, setListLength] = useState(modules.length);
   const columnCount = Math.ceil(listLength / 10);
