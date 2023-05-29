@@ -1,0 +1,16 @@
+.project-desc-input{
+    margin-top: 12px;
+}
+
+.environment-stacks-parent{
+    margin-top: 20px;
+    display: flex;
+}
+
+.environment-parent{
+    width: 50%;
+}
+
+.stacks-parent{
+    width: 50%;
+}

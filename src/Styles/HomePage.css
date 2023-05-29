@@ -1,0 +1,150 @@
+.home-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 24px;
+}
+
+
+.projects-title {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height */
+
+    letter-spacing: -0.04em;
+
+    color: #304165;
+}
+
+
+.gridview-parent {
+    /* position: absolute;
+    top:180px; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+
+.card-container-home {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 20px;
+}
+
+.card {
+    height: 211px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.02);
+    cursor: pointer;
+}
+
+/* 
+.card:hover {
+    scale: 1.05;
+    transition: 0.5s ease;
+} */
+
+.card-image {
+    width: 62px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.card-title {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 41px;
+    /* identical to box height */
+
+    letter-spacing: -0.04em;
+
+    color: #304165;
+}
+
+.card-version {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: -0.04em;
+
+    color: #C0C4CF;
+}
+
+.card-release {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.04em;
+
+    color: #C0C4CF;
+
+    opacity: 0.8;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 160px;
+}
+
+
+
+
+
+.card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.add-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 160px;
+}
+
+.add-card-title {
+    margin-top: 4px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.8333px;
+    line-height: 25px;
+    /* identical to box height */
+
+    letter-spacing: -0.04em;
+
+    color: #C0C4CF;
+}
+
+.gridview {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+}

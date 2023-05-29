@@ -1,0 +1,425 @@
+.home-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 24px;
+}
+
+.back-parent {
+    display: flex;
+
+    flex-direction: row;
+}
+
+.back-text {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: -0.04em;
+
+    color: #C0C4CF;
+}
+
+.gridview-parent {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.product-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.product-icon {
+    width: 69.75px;
+    height: 36px;
+}
+
+.product-title {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 67px;
+    letter-spacing: -0.04em;
+
+    color: #304165;
+
+    /* margin-left: 8px; */
+}
+
+
+
+
+.edit-btn {
+    padding: 20px 40px;
+    border: 1px solid rgba(27, 31, 35, 0.08);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background: rgba(27, 31, 35, 0.02);
+}
+
+.edit-align {
+    display: flex;
+    align-items: start;
+    justify-content: top;
+}
+
+.edit-text {
+    margin-top: 1px;
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(41, 45, 52, 0.7);
+
+    margin-left: 8px;
+}
+
+
+
+
+
+
+/*ACTION ITEM*/
+
+.action-parent {
+    width: 100%;
+    margin-top: 40px;
+    
+}
+
+.card-container-product {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 30px;
+    column-gap: 50px;
+}
+
+.action-ctnr {
+    cursor: pointer;
+    padding: 0px 40px;
+
+    width: 100%;
+    height: 190px;
+
+    /* background: linear-gradient(270deg, #9D0922 0%, #87031A 100%);
+    box-shadow: 0px 8px 16px rgba(191, 38, 69, 0.3); */
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+}
+
+.action-text {
+    width: 190px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: -0.04em;
+
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.action-img {
+    width: 133px;
+    height: 106px;
+}
+
+/* ACTION ITEM*/
+
+
+
+
+
+/*DIVIDER*/
+
+.section {
+    width: 100%;
+    margin-top: 32px;
+}
+
+.divider {
+    width: 100%;
+    opacity: 0.2;
+}
+
+/*DIVIDER*/
+
+
+/* Project Description*/
+.project-desc-parent {
+    display: flex;
+    flex-direction: column;
+}
+
+.desc-parent {
+    display: flex;
+}
+
+.desc-content {
+    width: 60%;
+}
+
+.desc-title {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    letter-spacing: -0.04em;
+
+    color: #304165;
+}
+
+.desc-text {
+    margin-top: 8px;
+    width: 666px;
+    height: min-content;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.04em;
+
+    color: #AFAFAF;
+}
+
+
+
+.stack-parent {
+    width: 40%;
+}
+
+.stack-ctnr {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.stack-icon {
+    margin-right: 10px;
+}
+
+
+.build-parent {
+    margin-top: 16px;
+}
+
+.build-env-parent {
+    margin-top: 12px;
+}
+
+.version {
+    color: rgba(35, 35, 35, 0.8);
+    font-weight: 500;
+}
+
+/* Project Description*/
+
+
+
+/*Files*/
+.files-bg {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(2, 99, 209, 0.03);
+    border-radius: 9px;
+}
+
+.files-img{
+    width: 21px;
+height: 28px;
+object-fit: contain;
+
+}
+
+.files-align{
+
+    margin-top: 8px;
+    margin-right: 20px;
+    width: max-content;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.files-text{
+
+    margin-left: 12px;
+    width: max-content;
+
+    font-family: 'Gotham';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: -0.04em;
+
+color: #AFAFAF;
+}
+/*Files*/
+
+
+
+/*Activities*/
+
+.activies-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seemore-parent {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.seemore-text {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    letter-spacing: -0.04em;
+    text-decoration-line: underline;
+
+    color: rgba(48, 65, 101, 0.5);
+}
+
+
+.activites-header-text {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /* identical to box height */
+
+    letter-spacing: -0.04em;
+
+    color: #4F4F4F;
+    display: inline-block;
+}
+
+.activities-content-parent {
+    margin-left: 30px;
+}
+
+.activies-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.activities-desc {
+    margin-left: 12px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: -0.04em;
+
+    color: rgba(79, 79, 79, 0.8);
+}
+
+
+/*Activities*/
+
+
+
+/*Modules*/
+.module-list ul {
+    /*column-count: 3; /* number of columns */
+    margin: 10px 0px 0px 36px;
+    padding: 0;
+    list-style-type: disc;
+
+}
+
+.module-list li {
+    color: #AFAFAF;
+    width: max-content;
+    margin-bottom: 12px;
+    /* spacing between rows */
+    break-inside: avoid-column;
+    /* avoid breaking across columns */
+
+
+}
+
+.module-text {
+
+    width: 216px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: -0.04em;
+
+    color: #AFAFAF;
+}
+
+/*Modules*/
+
+
+/*Avatar*/
+
+.avatar-parent{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 24px;
+}
+
+.resources-align{
+    display: flex;
+    margin-top: 16px;
+}
+/*Avatar*/
+
