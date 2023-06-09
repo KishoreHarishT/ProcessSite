@@ -99,7 +99,7 @@ function ActivitiesPage() {
             </div>
 
             <div>
-              <Collapse style={{ marginTop: '16px', background:'white', borderRadius:'8px' }} bordered={true} accordion expandIconPosition='end'>
+              <Collapse style={{ marginTop: '16px', background:'white', borderRadius:'8px' }} bordered={true} accordion >
                 {envs.map((item, index) => (
                   <Panel style={{ background: 'white', padding: '2px', borderRadius:'8px 8px 0px 0px'}}
                     header={

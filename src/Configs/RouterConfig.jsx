@@ -8,6 +8,8 @@ import ActivitiesPage from "../pages/ActivitiesPage";
 import ImpactAnalysisPage from "../pages/ImpactAnalysisPage";
 import ProjectAddEditPage from "../pages/ProjectAddEditPage";
 import ReleaseNotesPage from "../pages/ReleaseNotesPage";
+import DesignChecklistPage from "../pages/DesignChecklistPage";
+import CicdPage from "../pages/CicdPage";
 
 
 
@@ -23,6 +25,9 @@ const RouterConfig = () => {
         <Route path="/impact-analysis" element={<ImpactAnalysisPage />} />
         <Route path="/project-addedit" element={<ProjectAddEditPage />} />
         <Route path="/releasenotes" element={<ReleaseNotesPage />} />
+        <Route path="/designchecklist" element={<DesignChecklistPage />} />
+        <Route path="/cicdcreate" element={<CicdPage />} />
+
       </Routes>
 
       {/* ///navigate("/dashboard") */}

@@ -351,6 +351,14 @@ color: #AFAFAF;
     margin-bottom: 16px;
 }
 
+.ant-collapse-expand-icon{
+    align-items : center !important
+}
+
+.ant-collapse-header{
+    align-items: center !important
+}
+
 .activities-desc {
     margin-left: 12px;
 

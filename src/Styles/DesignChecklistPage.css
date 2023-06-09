@@ -1,0 +1,137 @@
+.desc-input-outline {
+    margin-top: 12px;
+    width: 100%;
+    border: 1px solid #E6EAF2;
+    box-shadow: 0px 3px 4px -5px rgba(24, 24, 28, 0.03);
+    filter: drop-shadow(0px 1px 2px rgba(24, 24, 28, 0.04));
+    border-radius: 8px;
+}
+
+.selection-heading {
+    width: 75%;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.03em;
+
+    color: #232323;
+}
+
+.radio-sec-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 16px;
+}
+
+.radio-btn {
+    gap: 20px;
+    display: flex;
+
+}
+
+
+.radio-text {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: -0.04em;
+
+    /* Grey/Secondary */
+
+    color: #5F5F61;
+}
+
+
+.summary-ctnr {
+    margin-top: 12px;
+    margin-right: 24px;
+    width: 440px;
+    height: 111px;
+    background: #004960;
+    border-radius: 8px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.bg {
+    width: 440px;
+    height: 111px;
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.summary-text-parent {
+    grid-column: 1;
+    grid-row: 1;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px 16px;
+}
+
+.summary-text {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: -0.04em;
+
+    color: #FFFFFF;
+}
+
+.score {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: -0.04em;
+
+    color: #FFFFFF;
+}
+
+.score-total {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: right;
+    letter-spacing: -0.04em;
+
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.desc-input{
+    font-family: 'Gotham';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: -0.04em;
+
+/* Grey/Secondary */
+
+color: #5F5F61;
+}
